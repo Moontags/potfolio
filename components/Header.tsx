@@ -14,7 +14,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/30 dark:bg-black/30 backdrop-blur-lg shadow-md z-50">
+    <header className="fixed top-0 left-0 w-full bg-white/10 dark:bg-transparent z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
 
         <nav className="flex space-x-6 text-lg font-semibold">

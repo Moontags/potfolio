@@ -12,7 +12,7 @@ const projects = [
     link: "https://moontags.github.io/Weather_App/",
   },
   {
-    title: "Weather App v2",
+    title: "Weather App  ",
     description: "An improved version of the weather app with more features.",
     image: "/w2.png",
     link: "https://python-weather-app-ml3g.onrender.com/",
@@ -60,15 +60,14 @@ export default function ProjectPage() {
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: "easeInOut" }}
-        className="relative text-gray-600 flex flex-col justify-center items-center bg-white/10 dark:bg-transparent 
-                   backdrop-blur-lg p-8 sm:px-12 rounded-xl shadow-sm border border-white/10 
-                   max-w-3xl w-full mx-auto text-center py-10"
+        className="relative text-gray-600 flex flex-col justify-center items-center dark:bg-transparent 
+                    p-8 sm:px-12 max-w-3xl w-full mx-auto text-center py-10"
       >
 
         <div className="flex flex-col justify-center items-center gap-10">
           
           <div className="flex items-center justify-center w-60 h-40 sm:w-80 sm:h-52 lg:w-[420px] lg:h-[280px] 
-                          rounded-lg overflow-hidden opacity-90">
+                           overflow-hidden opacity-90">
             <Image
               src={projects[currentProject].image}
               alt={projects[currentProject].title}
@@ -93,8 +92,8 @@ export default function ProjectPage() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
               className="flex items-center font-medium text-lg px-6 py-2 
-                        bg-white/20 dark:bg-black/30 backdrop-blur-md
-                        text-gray-500 dark:text-white rounded-full shadow-lg 
+                        bg-white/20 dark:bg-black/30 backdrop-blur-sm
+                        text-gray-500 dark:text-white rounded-full shadow-md
                         transition-all duration-300 ease-in-out 
                         hover:bg-white/40 dark:hover:bg-black/50 
                         hover:shadow-xl hover:brightness-125 
@@ -109,8 +108,8 @@ export default function ProjectPage() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 2, ease: "easeOut" }}
               className="flex items-center font-medium text-lg px-6 py-2 
-                        bg-white/20 dark:bg-black/30 backdrop-blur-md
-                        text-gray-500 dark:text-white rounded-full shadow-lg 
+                        bg-white/20 dark:bg-black/30 backdrop-blur-sm
+                        text-gray-500 dark:text-white rounded-full shadow-md
                         transition-all duration-300 ease-in-out 
                         hover:bg-white/40 dark:hover:bg-black/50 
                         hover:shadow-xl hover:brightness-125 

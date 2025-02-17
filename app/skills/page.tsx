@@ -28,8 +28,7 @@ export default function SkillsPage() {
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: "easeOut" }}
-        className="relative flex flex-col items-center bg-white/10 dark:bg-transparent 
-                   backdrop-blur-lg p-8 rounded-xl shadow-sm border border-white/10 
+        className="relative flex flex-col items-center  dark:bg-transparent p-8 
                    max-w-4xl w-full mx-auto text-center overflow-y-auto h-[70vh] py-6 mt-4"
       >
     

@@ -6,16 +6,13 @@
 html {
   background-color: #ffffff;
   color: #1a202c;
-  scroll-behavior: smooth;
-  
 
 }
 
 html.dark {
   background-color: transparent;
   color: #f7fafc;
-  scroll-behavior: smooth;
- 
+  
 }
 
 :root {
