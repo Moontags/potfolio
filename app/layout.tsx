@@ -11,13 +11,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="h-screen flex flex-col bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <body className="min-h-screen flex flex-col bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           
-          {/* Header näkyy vain, jos käyttäjä ei ole etusivulla */}
           {pathname !== "/" && <Header />}
-
-          {/* Sivun pääsisältö, joka venyy täyttämään loput tilasta */}
           <main className="flex-grow">
             <PageTransition>{children}</PageTransition>
           </main>

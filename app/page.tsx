@@ -18,10 +18,8 @@ export default function Home() {
   return (
     <div className={`relative min-h-screen flex flex-col items-center justify-center transition-colors duration-300 bg-black text-white overflow-hidden`}>
       
-      {/* Taustatähdet */}
       <div className="absolute inset-0 stars"></div>
       
-      {/* Otsikko animaatiolla */}
       <motion.h1
         initial={{ scale: 0, opacity: 0  }}
         animate={{ scale: 1, opacity: 1 }}
@@ -31,7 +29,6 @@ export default function Home() {
         Welcome! 
       </motion.h1>
       
-      {/* Pyörivä maapallo animaatiolla */}
       <motion.div
         initial={{ scale: 0.1, opacity: 0, rotate: 0 }}
         animate={{ scale: 2.2, opacity: 1, rotate: 720 }}
@@ -47,7 +44,6 @@ export default function Home() {
         />
       </motion.div>
 
-      {/* Fade-in teksti */}
       <motion.p
         initial={{ scale: 0, opacity: 0  }}
         animate={{ scale: 1, opacity: 1 }}
@@ -57,7 +53,6 @@ export default function Home() {
          Explore my portfolio and my journey as a developer
       </motion.p>
     
-            {/* Call to Action -nappi */}
       <motion.a
         href="/projects"
         initial={{ scale: 0.1, opacity: 0, rotate: 180 }}

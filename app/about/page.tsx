@@ -6,11 +6,10 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function AboutPage() {
   return (
-    <div className="relative flex flex-col items-center justify-start min-h-screen 
+    <div className="relative flex flex-col flex-grow items-center justify-start min-h-screen 
                     bg-gradient-to-b from-gray-100 to-gray-300 dark:from-black dark:to-gray-900 
                     text-gray-900 dark:text-gray-300 overflow-hidden p-4">
       
-      {/* Kiinteä taustaelementti */}
       <motion.div
         className="fixed inset-0 stars"
         initial={{ opacity: 0 }}
@@ -18,17 +17,15 @@ export default function AboutPage() {
         transition={{ duration: 2 }}
       ></motion.div>
 
-      {/* Otsikko animaatiolla */}
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
         transition={{ duration: 2.5, ease: "easeOut" }}
-        className="text-4xl font-bold text-center mt-6 mb-8"
+        className="text-4xl font-bold text-center mt-20 mb-8"
       >
         About Me
       </motion.h1>
 
-      {/* Skrollattava sisältö */}
       <motion.div
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -37,7 +34,7 @@ export default function AboutPage() {
                    backdrop-blur-lg p-8 sm:px-12 rounded-xl shadow-sm border border-white/10 
                    max-w-3xl w-full mx-auto text-center overflow-y-auto h-[70vh] py-6"
                 >
-                {/* Profiilikuva */}
+     
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 0.8 }}
@@ -54,9 +51,6 @@ export default function AboutPage() {
             />
           </motion.div>
 
-
-
-        {/* Esittelyteksti */}
                 <p className="text-lg text-left text-pretty mt-6 text-gray-800 space-y-4">
           <span>
             I have been coding for about four years, focusing extensively on both frontend and backend development. I specialize in React, Next.js, and Tailwind CSS, and I have a command of modern web technologies, including Three.js and Framer Motion for animations. I can build responsive and visually impressive websites with a smooth user experience.
@@ -75,10 +69,8 @@ export default function AboutPage() {
           </span>
         </p>
 
-              {/* Yhteystiedot */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mt-8 w-full">
           
-          {/* Sähköposti */}
           <motion.a
             href="mailto:jena9988@gmail.com"
             initial={{ scale: 0.1, opacity: 0 }}
@@ -96,7 +88,6 @@ export default function AboutPage() {
             Email
           </motion.a>
 
-          {/* LinkedIn */}
           <motion.a
             href="https://www.linkedin.com/in/jari-peltola-25b416153/"
             target="_blank"
@@ -116,7 +107,6 @@ export default function AboutPage() {
             LinkedIn
           </motion.a>
 
-          {/* GitHub */}
           <motion.a
             href="https://github.com/Moontags"
             target="_blank"

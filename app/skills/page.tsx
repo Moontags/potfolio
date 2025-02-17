@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 
 export default function SkillsPage() {
   return (
-    <div className="relative flex flex-col items-center justify-start min-h-screen 
+    <div className="relative flex flex-col flex-grow items-center justify-start min-h-screen 
                     bg-gradient-to-b from-gray-100 to-gray-300 dark:from-black dark:to-gray-900 
                     text-gray-900 dark:text-gray-900 overflow-hidden p-4 font-body">
       
-      {/* Kiinteä taustaelementti */}
       <motion.div
         className="fixed inset-0 stars"
         initial={{ opacity: 0 }}
@@ -16,17 +15,15 @@ export default function SkillsPage() {
         transition={{ duration: 2 }}
       ></motion.div>
 
-      {/* Otsikko animaatiolla */}
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
         transition={{ duration: 2.5, ease: "easeOut" }}
-        className="text-4xl font-bold font-heading text-center mt-6 mb-8 dark:text-gray-300"
+        className="text-4xl font-bold font-heading text-center mt-20 mb-6 dark:text-gray-300"
       >
        Programming skills
       </motion.h1>
 
-      {/* Skills-osio (skrollattava, nostettu ylemmäs) */}
       <motion.div
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -36,7 +33,6 @@ export default function SkillsPage() {
                    max-w-4xl w-full mx-auto text-center overflow-y-auto h-[70vh] py-6 mt-4"
       >
     
-        {/* Frontend */}
         <h3 className="text-xl text-gray-800 font-semibold mt-16 font-heading">Frontend Technologies</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>HTML</span>
@@ -50,7 +46,6 @@ export default function SkillsPage() {
           <span>AJAX</span>
         </div>
 
-        {/* Backend */}
         <h3 className="text-xl text-gray-700 font-semibold mt-12 font-heading">Backend Technologies</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>PHP</span>
@@ -64,7 +59,6 @@ export default function SkillsPage() {
           <span>Flask</span>
         </div>
 
-        {/* Version Control and Tools */}
         <h3 className="text-xl text-gray-700 font-semibold mt-12 font-heading">Version Control and Tools</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>GitHub</span>
@@ -78,7 +72,6 @@ export default function SkillsPage() {
           <span>Postman</span>
         </div>
 
-        {/* Databases */}
         <h3 className="text-xl text-gray-700 font-semibold mt-12 font-heading">Databases</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>MySQL</span>
@@ -86,7 +79,6 @@ export default function SkillsPage() {
           <span>PostgreSQL</span>
         </div>
 
-        {/* Project Management and Other Tools */}
         <h3 className="text-xl text-gray-800 font-semibold mt-12 font-heading">Project Management and Other Tools</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>Scrum</span>
@@ -94,7 +86,6 @@ export default function SkillsPage() {
           <span>Slack</span>
         </div>
 
-        {/* Graphic Design */}
         <h3 className="text-xl text-gray-900 font-semibold mt-12 font-heading">Graphic Design</h3>
         <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
           <span>Figma</span>
