@@ -49,7 +49,7 @@ export default function ProjectPage() {
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
-        transition={{ duration: 2.5, ease: "easeOut" }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
         className="text-4xl font-bold text-center mt-12 pb-6"
       >
         My Projects
@@ -59,7 +59,7 @@ export default function ProjectPage() {
         key={currentProject}
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
         className="relative text-gray-600 flex flex-col justify-center items-center dark:bg-transparent 
                     p-8 sm:px-12 max-w-3xl w-full mx-auto text-center py-10"
       >
@@ -90,7 +90,7 @@ export default function ProjectPage() {
               rel="noopener noreferrer"
               initial={{ scale: 0.1, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 1.5, ease: "easeOut" }}
+              transition={{ duration: 1.2, ease: "easeOut" }}
               className="flex items-center font-medium text-lg px-6 py-2 
                         bg-white/20 dark:bg-black/30 backdrop-blur-sm
                         text-gray-500 dark:text-white rounded-full shadow-md
@@ -106,7 +106,7 @@ export default function ProjectPage() {
               onClick={nextProject}
               initial={{ scale: 0.1, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 2, ease: "easeOut" }}
+              transition={{ duration: 1.6, ease: "easeOut" }}
               className="flex items-center font-medium text-lg px-6 py-2 
                         bg-white/20 dark:bg-black/30 backdrop-blur-sm
                         text-gray-500 dark:text-white rounded-full shadow-md

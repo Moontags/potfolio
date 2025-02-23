@@ -20,7 +20,7 @@ export default function AboutPage() {
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
-        transition={{ duration: 2.5, ease: "easeOut" }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
         className="text-4xl font-bold text-center mt-20 mb-8"
       >
         About Me
@@ -74,7 +74,7 @@ export default function AboutPage() {
             href="mailto:jena9988@gmail.com"
             initial={{ scale: 0.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 2, ease: "easeOut" }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
             className="flex items-center font-medium text-lg px-6 py-1.5 
                       bg-white/10 dark:bg-black/20 backdrop-blur-sm
                       text-gray-500 dark:text-gray-300 rounded-full shadow-md
@@ -93,7 +93,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             initial={{ scale: 0.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 2.5, ease: "easeOut" }}
+            transition={{ duration: 1.4, ease: "easeOut" }}
             className="flex items-center font-medium text-lg px-6 py-1.5 
                       bg-white/10 dark:bg-black/20 backdrop-blur-sm
                       text-gray-500 dark:text-gray-300 rounded-full shadow-md 
@@ -112,7 +112,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             initial={{ scale: 0.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 3, ease: "easeOut" }}
+            transition={{ duration: 1.6, ease: "easeOut" }}
             className="flex items-center font-medium text-lg px-6 py-1.5 
                       bg-white/10 dark:bg-black/20 backdrop-blur-sm
                       text-gray-500 dark:text-gray-300 rounded-full shadow-md

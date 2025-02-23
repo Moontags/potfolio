@@ -18,7 +18,7 @@ export default function SkillsPage() {
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
-        transition={{ duration: 2.5, ease: "easeOut" }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
         className="text-4xl font-bold font-heading text-center mt-20 mb-6 dark:text-gray-300"
       >
        Programming skills
