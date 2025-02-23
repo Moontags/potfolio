@@ -50,7 +50,7 @@ export default function AboutPage() {
             />
           </motion.div>
 
-                <p className="text-lg text-left text-pretty mt-6 text-gray-800 space-y-4">
+                <p className="text-lg text-left text-pretty m-4 text-gray-800 space-y-4">
           <span>
             I have been coding for about four years, focusing extensively on both frontend and backend development. I specialize in React, Next.js, and Tailwind CSS, and I have a command of modern web technologies, including Three.js and Framer Motion for animations. I can build responsive and visually impressive websites with a smooth user experience.
           </span>
@@ -68,7 +68,7 @@ export default function AboutPage() {
           </span>
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mt-8 w-full">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-8 w-full">
           
           <motion.a
             href="mailto:jena9988@gmail.com"
