@@ -6,13 +6,14 @@
 html {
   background-color: #ffffff;
   color: #1a202c;
+  overflow: hidden;
 
 }
 
 html.dark {
   background-color: transparent;
   color: #f7fafc;
-  
+  overflow: hidden;
 }
 
 :root {

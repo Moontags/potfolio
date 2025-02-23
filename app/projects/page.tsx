@@ -49,7 +49,7 @@ export default function ProjectPage() {
       <motion.h1
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1, rotate: 360 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
+        transition={{ duration: 2, ease: "easeOut" }}
         className="text-4xl font-bold text-center mt-12 pb-6"
       >
         My Projects

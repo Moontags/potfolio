@@ -112,7 +112,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             initial={{ scale: 0.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.6, ease: "easeOut" }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             className="flex items-center font-medium text-lg px-6 py-1.5 
                       bg-white/10 dark:bg-black/20 backdrop-blur-sm
                       text-gray-500 dark:text-gray-300 rounded-full shadow-md
