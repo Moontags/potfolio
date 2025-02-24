@@ -86,7 +86,7 @@ export default function SkillsPage() {
         </div>
 
         <h3 className="text-xl text-gray-900 font-semibold mt-12 font-heading">Graphic Design</h3>
-        <div className="grid grid-cols-3 gap-8 mt-12 justify-around w-full">
+        <div className="grid grid-cols-3 gap-8 mt-12 mb-12 justify-around w-full">
           <span>Figma</span>
           <span>Photoshop</span>
           <span>Premier</span>

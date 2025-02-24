@@ -82,7 +82,7 @@ export default function ProjectPage() {
             {projects[currentProject].description}
           </p>
 
-          <div className="flex gap-8 w-full justify-center">
+          <div className="flex gap-8 w-full justify-center mb-12">
             
             <motion.a
               href={projects[currentProject].link}
